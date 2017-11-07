@@ -18,7 +18,6 @@
     });
   });
 
-
   function idea(){
     var wh = $(window).height();
     var bw = parseInt($('.slide_title_border').css('border-left-width'));
@@ -35,5 +34,9 @@
   $(window).resize(function(){
     idea()
   });
+
+jQuery("#responsive_headline").fitText(1.2);
+jQuery("#responsive_headline").fitText(0.8);
+
 
 })(jQuery);
